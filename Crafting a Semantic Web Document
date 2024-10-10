@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography as a Hobby</title>
+</head>
+<body>
+    <!-- Task 1: Define Page Structure -->
+    <header>
+        <h1>Welcome to My Photography Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#tips">Photography Tips</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Task 2: Organize Content Using Articles and Sections -->
+        <section id="about">
+            <h2>About My Journey in Photography</h2>
+            <p>Photography has been my passion for the past 10 years. From landscape photography to street photography, I have explored various styles.</p>
+        </section>
+
+        <article id="gallery">
+            <h2>Photography Gallery</h2>
+            <figure>
+                <img src="landscape-photo.jpg" alt="A beautiful landscape">
+                <figcaption>A serene landscape at sunset.</figcaption>
+            </figure>
+        </article>
+
+        <section id="tips">
+            <h2>Photography Tips</h2>
+            <p>Here are some tips for capturing stunning photographs:</p>
+            <ul>
+                <li>Always check your lighting conditions.</li>
+                <li>Experiment with different angles and perspectives.</li>
+                <li>Use a tripod for steady shots.</li>
+            </ul>
+        </section>
+
+        <!-- Task 3: Enhance Accessibility with Semantic Markup -->
+        <aside>
+            <h3>Quote of the Day</h3>
+            <p>"Photography is the story I fail to put into words." - Destin Sparks</p>
+        </aside>
+    </main>
+
+    <footer>
+        <address>
+            <p>Contact me at: <a href="mailto:photography@hobby.com">photography@hobby.com</a></p>
+        </address>
+    </footer>
+</body>
+</html>
